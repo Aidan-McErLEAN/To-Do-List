@@ -14,6 +14,7 @@ Remove notepad
 
 View notepad
 
+----------------
 
 Add new task
 
@@ -23,11 +24,13 @@ Remove task
 
 View tasks
 
+----------------
 
 Post a commment for each notepad
 
 Send a review
 
+----------------
 
 Displays amount of days for completetion
 
