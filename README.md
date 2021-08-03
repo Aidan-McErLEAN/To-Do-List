@@ -4,6 +4,12 @@ Hello,
 I created this TO DO LIST web app, in laravel. This web app, I created for 4 days
 and built to the best of my current ability.
 
+Help
+===========================
+You might have to create a DB manually ("taskstodo")
+
+Also don't forget to migrate
+
 Features
 ===========================
 Add new notepad
