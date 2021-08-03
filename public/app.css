@@ -1,0 +1,99 @@
+/*NOTEPAD RED INDICATOR FOR UNCOMPLETED NOTEPAD*/
+.notepad-status-0 {
+    height: 50px;
+    width: 100%;
+    background-color: red;
+}
+
+/*NOTEPAD GREEN INDICATOR FOR COMPLETED NOTEPAD*/
+.notepad-status-1 {
+    height: 50px;
+    width: 100%;
+    background-color: green;
+}
+
+/*COL1*/
+.container .col1  {
+  border: 1px solid black;
+  width: 33%;
+  height: 350px;
+}
+
+/*COL2*/
+.container .col2  {
+  border: 1px solid black;
+  width: 33%;
+  height: 350px;
+}
+
+/*COL3*/
+.container .col3  {
+  border: 1px solid black;
+  width: 33%;
+  height: 350px;
+}
+
+/*COL4*/
+.col4  {
+  width: 40%;
+  margin-left: 20%;
+  float: left;
+  height: auto;
+}
+
+/*COL5*/
+.col5  {
+  margin-left: 2%;
+  float: left;
+  height: auto;
+}
+
+/*COMMENT CARDS*/
+.comment_cards {
+  border: 1px solid black;
+}
+
+/*CONTAINER FOR EDIT LAYOUT*/
+.container_edit {
+  border: 1px solid black;
+  padding: 3%;
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 3%;
+}
+
+/*NOTEPAD CARD TO RENDER TO RIGHT SIDE*/
+.container {
+  margin-top: 1%;
+  display: block;
+  width: 100%;
+  margin-bottom: 1%;
+}
+  
+.card {
+  border: 1px solid black;
+  float: left;
+  margin: 1px;
+  /*setting width for each and every card element as well as -10px for removing the margin width for 5 elements*/
+  width: calc( 100% / 5 - 10px);
+}
+
+/*first element*/
+.container .card:first-child {
+  margin-left: 0;
+}
+  
+/*last element of the first row*/
+.container .card:nth-child(5n) {
+  margin-right: 0;
+}
+  
+/*first-element of the 2nd row*/
+.container .card:nth-child(5n+1) {
+  margin-left: 0;
+}
+  
+/*last element*/
+.container .card:last-child {
+  margin-right: 0;
+}
