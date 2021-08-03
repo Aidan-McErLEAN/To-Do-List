@@ -2,7 +2,7 @@
 
 Hello,
 I created this TO DO LIST web app, in laravel. This web app, I created for 4 days
-and built to the best of my current ability.
+and built to the best of my current ability and this web app crud's a database.
 
 Help
 ===========================
